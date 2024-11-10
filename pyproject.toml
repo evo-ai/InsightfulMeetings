@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "meetinginsightsapp"
+version = "0.1.0"
+description = ""
+authors = ["Omair Ashfaque <omairabb1987@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.5.1"
+pyannote-audio = "^3.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
